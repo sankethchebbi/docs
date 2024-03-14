@@ -1,13 +1,17 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Sanketh's Notes",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/sanketh-dark.png",
+    "light": "/logo/sanketh.png"
   },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },  
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#FF0000",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -17,38 +21,73 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Notes",
+      "url": "content"
     }
-  ],
+  ]
+,  
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+        "name": "Twitter",
+        "icon": "twitter",
+        "url": "https://twitter.com/sankethchebbi"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+        "name": "Instagram",
+        "icon": "Instagram",
+        "url": "https://instagram.com/sankethchebbi"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+        "name": "Email",
+        "icon": "envelope",
+        "url": "mailto:sanketh@duck.com"
     }
-  ],
+],
+  
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Topics",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
-      ]
+            "art",
+            "aviation",
+            "books",
+            "cars",
+            "card-games",
+            "chemistry",
+            "classical-music",
+            "clothing",
+            "coffee",
+            "creative",
+            "designer-stuff",
+            "engineering",
+            "essays",
+            "europe",
+            "films",
+            "finance",
+            "guns",
+            "history",
+            "literature",
+            "math",
+            "music",
+            "my-tech",
+            "philosophy",
+            "physics",
+            "programming",
+            "quant-fin",
+            "space",
+            "suits",
+            "technology",
+            "travel",
+            "war-fight",
+            "watches",
+            "youtube"
+        ]
+
     },
+    
     {
-      "group": "Essentials",
+      "group": "Thoughts",
       "pages": [
         "essentials/markdown",
         "essentials/code",
@@ -57,25 +96,11 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/sankethchebbi",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/sankethchebbi",
+    "linkedin": "https://www.linkedin.com/in/sankethchebbi"
   }
 }
