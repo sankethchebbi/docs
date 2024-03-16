@@ -19,30 +19,6 @@
       "to": "#07C983"
     }
   },
-  "tabs": [
-    {
-      "name": "Notes",
-      "url": "content"
-    }
-  ]
-,  
-  "anchors": [
-    {
-        "name": "Twitter",
-        "icon": "twitter",
-        "url": "https://twitter.com/sankethchebbi"
-    },
-    {
-        "name": "Instagram",
-        "icon": "Instagram",
-        "url": "https://instagram.com/sankethchebbi"
-    },
-    {
-        "name": "Email",
-        "icon": "envelope",
-        "url": "mailto:sanketh@duck.com"
-    }
-],
   
   "navigation": [
     {
